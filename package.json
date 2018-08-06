@@ -1,0 +1,26 @@
+{
+  "name": "component_react_router",
+  "version": "1.0.0",
+  "main": "index.js",
+  "private": true,
+  "repository": "https://github.com/TarcisoLoiola/component_react_router.git",
+  "license": "MIT",
+  "dependencies": {
+    "css-loader": "^1.0.0",
+    "normalize.css": "^8.0.0",
+    "path": "^0.12.7",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.4",
+    "style-loader": "^0.21.0",
+    "webfontloader": "^1.6.28"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "sass": "sass --watch src/styles/scss:src/styles/css"
+  }
+}
